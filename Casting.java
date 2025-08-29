@@ -1,3 +1,5 @@
+ //casting,operators,constants(final),maths.
+
 public class Casting {
      public static void main(String[] args){
           //implicit casting
@@ -22,13 +24,13 @@ public class Casting {
 
           //Operators
 
-          //arithmetic
+          //arithmetic operator
           int d=5;
           int e=7;
           int f=d%e;
           System.out.println(f);
 
-          //assignment
+          //assignment operator
           int g=7;
           g++;
           System.out.println(g); //8
@@ -41,9 +43,9 @@ public class Casting {
           System.out.println((int)Math.random());  //random
           System.out.println((int)(Math.random()*100)); // random values between 0 to 100
 
-          //casting,operators,constants(final),maths.
-
+         
         
      }
      
 }
+
